@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  playground:
+    build:
+      context: .
+      target: playground
+    container_name: cpp-playground
+    tty: true
+    volumes:
+      - type: bind
+        source: ./project
+        target: /home/project

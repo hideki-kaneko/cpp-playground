@@ -1,0 +1,15 @@
+{
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "playground",
+    "forwardPorts": [3000],
+    "workspaceFolder": "/home/project",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+
+    }
+}
