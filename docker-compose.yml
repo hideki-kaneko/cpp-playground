@@ -8,5 +8,5 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: ./project
+        source: ./
         target: /home/project
